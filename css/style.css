@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62%;
+    background: linear-gradient(90deg, rgba(131,123,255,1) 0%, rgba(105,123,227,1) 60%, rgba(0,212,255,1) 100%);
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: aliceblue;
+    width: 32rem;
+    height: auto;
+    padding: 2rem;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+    -moz-box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+    box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxHeading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content:space-evenly;
+    width: 29rem;
+}
+
+.h1 {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.otherHeadingUtilities {
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    justify-content: space-evenly;
+}
+
+.userName {
+    font-size: 1rem;
+    color: rgb(77, 77, 77);
+}
+
+.date {
+    font-size: 1rem;
+    text-decoration: underline;
+    color: rgb(105, 105, 105);
+}
+
+.boxImage {
+    width: 29rem;
+    height: 19rem;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.img {
+    width: 29rem;
+    height: 17rem;
+}
+
+.mainContent {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.texContent {
+    width: 29rem;
+    height: 20rem;
+}

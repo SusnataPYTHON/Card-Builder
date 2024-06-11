@@ -1,0 +1,150 @@
+
+/*
+max-width 600px	   ->   Phones
+min-width 600px	   ->   Tablets and Large Phones
+min-width 768px	   ->   Tablets
+min-width 992px	   ->   Laptops and Desktops 
+*/
+
+
+@media screen and (max-width: 595px) {
+    .card {
+        background-color: aliceblue;
+        width: 29rem;
+        height: auto;
+        padding: 1rem;
+        border-radius: 5px;
+        -webkit-box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+        -moz-box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+        box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .boxHeading {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content:space-evenly;
+        width: 25rem;
+    }
+    
+    .h1 {
+        padding-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .otherHeadingUtilities {
+        display: flex;
+        flex-direction: row;
+        width: 5rem;
+        justify-content: space-evenly;
+    }
+    
+    .userName {
+        font-size: 0.5rem;
+        color: rgb(77, 77, 77);
+    }
+    
+    .date {
+        font-size: 0.5rem;
+        text-decoration: underline;
+        color: rgb(105, 105, 105);
+    }
+    
+    .boxImage {
+        width: 25rem;
+        height: 15rem;
+        overflow: hidden;
+        padding-top: 2.5px;
+    }
+    
+    .img {
+        width: 25rem;
+        height: 12rem;
+    }
+    
+    .mainContent {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.5rem;
+        padding: 2.5px;
+    }
+    
+    .texContent {
+        width: 24rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 495px) {
+
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        background-color: aliceblue;
+        width: 20rem;
+        height: auto;
+        padding: 1rem;
+        border-radius: 2px;
+        -webkit-box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+        -moz-box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+        box-shadow: 10px 10px 13px -9px rgba(0,0,0,0.58);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .boxHeading {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content:space-evenly;
+        width: 20rem;
+    }
+    
+    .h1 {
+        padding-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .otherHeadingUtilities {
+        display: flex;
+        flex-direction: row;
+        width: 5rem;
+        justify-content: space-evenly;
+    }
+    
+    .userName {
+        font-size: 0.5rem;
+        color: rgb(77, 77, 77);
+    }
+    
+    .boxImage {
+        width: 15rem;
+        height: 11rem;
+        overflow: hidden;
+        padding-top: 5px;
+    }
+    
+    .img {
+        width: 13rem;
+        height: 10rem;
+    }
+    
+    .mainContent {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 0.5rem;
+        padding: 5px;
+    }
+    
+    .texContent {
+        width: 24rem;
+        height: 15rem;
+    }
+  }
